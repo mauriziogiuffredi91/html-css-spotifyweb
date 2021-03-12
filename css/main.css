@@ -19,8 +19,27 @@ h5{
 
 /* sidebar */
 
-
+.sidebar{
+    height: 100vh;
+    background-color:lightgray;
+}
 /* header menu */
+
+.header_menu{
+    height: 90px;
+    background-color: #05070b;
+}
+
+/* content main */
+
+.content_main{
+    height: calc(100% - 180px);
+    background-color: red;
+    
+}
+
+
+
 
 
 /* leadership */
@@ -33,3 +52,8 @@ h5{
 /* popular artist */
 
 /* footer play */
+
+.footer_play{
+    height: 90px;
+    background-color: #282828;
+}
