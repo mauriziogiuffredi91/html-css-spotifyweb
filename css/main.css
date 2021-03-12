@@ -1,11 +1,8 @@
-h1,
-h2,
-h3,
-h4,
-h5{
+body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 14px;
 }
 
 
@@ -20,23 +17,29 @@ h5{
 /* sidebar */
 
 .sidebar{
-    height: 100vh;
-    background-color:lightgray;
+    height: calc(100vh - 90px);
+    width: 227px;
+    background: #000000;
 }
+
+/* main */
+
+main{
+    width: calc(100vw - 227px);
+    
+}
+
 /* header menu */
 
 .header_menu{
     height: 90px;
-    background-color: #05070b;
+    background-color: #080b12;
 }
+
 
 /* content main */
 
-.content_main{
-    height: calc(100% - 180px);
-    background-color: red;
-    
-}
+
 
 
 
@@ -57,3 +60,4 @@ h5{
     height: 90px;
     background-color: #282828;
 }
+
