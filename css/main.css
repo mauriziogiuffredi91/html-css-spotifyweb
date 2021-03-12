@@ -14,33 +14,43 @@ body{
 
 /* list */
 
-/* sidebar */
-
-/* .sidebar{
-    height: calc(100vh - 90px);
-    width: 227px;
-    background: #000000;
-} */
 
 /* main */
 
 main{
-    /* width: calc(100vw - 227px); */
-    height: calc(100vh -90px);
-
+    position: relative;
+    height: calc(100vh - 90px);
+    background-color: #141922;
+    
     
 }
 
+/* sidebar */
+
+.sidebar{
+    height: calc(100vh - 90px);
+    width: 227px;
+    background: #000000;
+}
+    
+
+/* content main */
+
+
+
+
 /* header menu */
 
-/* .header_menu{
+.header_menu{
+    position: absolute;
+    top: 0;
+    right: 0;
     height: 90px;
     width: calc(100vw - 227px);
     background-color: #080b12;
-} */
+}
 
 
-/* content main */
 
 
 
@@ -60,8 +70,8 @@ main{
 /* footer play */
 
 .footer_play{
-    width: 100vw;
     height: 90px;
     background-color: #282828;
 }
+
 
