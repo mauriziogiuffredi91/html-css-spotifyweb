@@ -19,9 +19,8 @@ body{
 
 main{
     position: relative;
-    height: calc(100vh - 90px);
     background-color: #141922;
-    
+    height: calc(100vh - 90px);
     
 }
 
@@ -47,7 +46,7 @@ main{
     right: 0;
     height: 90px;
     width: calc(100vw - 227px);
-    background-color: #080b12;
+    background-color:rgba(3, 4, 7, 0.576);
 }
 
 
