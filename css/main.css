@@ -47,16 +47,17 @@ main{
 .sidebar .sidebar_menu{
     margin: 0 20px;
     width: 100%;
+    color: #6d6d6d;
     
     
 }
 .sidebar .sidebar_menu .help-icon{
     width: 190px;
-    color: white;
     font-size: 17px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 
     
 }
@@ -68,6 +69,15 @@ main{
 .sidebar .sidebar_menu .help-icon img{
     width: 15%;
 }
+
+.sidebar .sidebar_menu .playlist{
+    margin: 
+}
+
+/* aggiungere nello span le caratteristiche di un quadrante con croce dentro di selezione */
+
+
+
 /* content main */
 
 
