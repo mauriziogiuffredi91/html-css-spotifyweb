@@ -10,6 +10,12 @@ body{
 
 /* generali */
 
+.max-width{
+    max-width: 100%;
+    object-fit: contain;
+
+}
+
 /* button */
 
 /* list */
@@ -30,9 +36,38 @@ main{
     height: calc(100vh - 90px);
     width: 227px;
     background: #000000;
-}
     
+}
 
+.sidebar .logo_spotify{
+    width: 190px;
+    padding: 20px;
+}
+
+.sidebar .sidebar_menu{
+    margin: 0 20px;
+    width: 100%;
+    
+    
+}
+.sidebar .sidebar_menu .help-icon{
+    width: 190px;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+}
+
+.help-icon h6{
+    margin: 10px;
+}
+
+.sidebar .sidebar_menu .help-icon img{
+    width: 15%;
+}
 /* content main */
 
 
