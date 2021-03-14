@@ -20,6 +20,19 @@ body{
 
 /* list */
 
+.special-li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.special-li a{
+    text-decoration: none;
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: bold;  
+    
+}
+
 
 /* main */
 
@@ -53,7 +66,7 @@ main{
 }
 .sidebar .sidebar_menu .help-icon{
     width: 190px;
-    font-size: 17px;
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -71,7 +84,40 @@ main{
 }
 
 .sidebar .sidebar_menu .playlist{
-    margin: 
+    margin: 10px 0;
+}
+
+.sidebar_menu .playlist h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.sidebar_menu .playlist .add-playlist{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.sidebar_menu .playlist h5 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+
+.sidebar_menu .playlist span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a3a3a3;
+    height: 40px;
+    width: 40px;
+    color: #000000;
+}
+
+.sidebar_menu .playlist span i{
+    font-size: 20px;
 }
 
 /* aggiungere nello span le caratteristiche di un quadrante con croce dentro di selezione */
