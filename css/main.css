@@ -40,14 +40,15 @@ main{
     position: relative;
     background-color: #141922;
     height: calc(100vh - 90px);
+    display: flex;
     
 }
 
 /* sidebar */
 
 .sidebar{
-    height: calc(100vh - 90px);
-    width: 227px;
+    /* height: calc(100vh - 90px);
+    width: 227px; */
     background: #000000;
     
 }
@@ -121,7 +122,8 @@ main{
 }
 
 .foot-sidebar{
-    margin-top: 290px;
+    margin-top: 140%;
+    height: 80px;
 }
 
 .foot-sidebar a{
