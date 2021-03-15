@@ -470,3 +470,37 @@ main{
     width: 40px;
     height: 4px;
 }
+
+/* media query version  */
+
+@media screen and (min-width: 767px) and (max-width: 1199px){
+    /* leadership */
+
+    .content_main .leadership{
+        height: 80px;
+        display: block;
+    }
+
+    .list-oriz {
+        padding: 20px 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+                
+
+    }
+
+    .list-oriz li {
+        display: inline-block;
+        list-style: none;
+        margin-right: 10px;
+        cursor: pointer;
+        
+    }
+
+    .list-oriz li:last-child{
+        margin-top: 35px;
+    }
+}
+
