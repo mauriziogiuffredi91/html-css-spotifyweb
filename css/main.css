@@ -24,6 +24,11 @@ a{
 
 /* generali */
 
+.sidebar,
+.content_main{
+    overflow-y: hidden;
+}
+
 .max-width{
     max-width: 100%;
     object-fit: contain;
@@ -120,9 +125,12 @@ main{
 /* sidebar */
 
 .sidebar{
-    flex-basis: 230px;
+    flex-basis: 376px;
     background: #000000;
-    min-height: 30px;
+    overflow-x: hidden;
+    
+    
+    
     
 }
 
@@ -195,7 +203,7 @@ main{
 }
 
 .foot-sidebar{
-    margin-top: 140%;
+    margin-top: 168%;
     min-height: 80px;
 }
 
@@ -238,6 +246,8 @@ main{
     position: relative;
     flex-grow: 1;
     background-color: #141922;
+    overflow: hidden;
+    
 
 }
 
@@ -264,6 +274,8 @@ main{
 
 .content_main .scrollable{
     padding: 88px 0 0 15px;
+    height: 100%;
+    overflow-y: auto;
 }
 
 
@@ -324,6 +336,102 @@ main{
 .footer_play{
     height: 90px;
     background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.footer_play .play-album,
+.footer_play .play-audio{
+    flex-basis: 240px;
+    display: flex;
+    align-items: center;
+}
+    
+.contain-play-img{
+    width: 80px;
+}
+.footer_play .play-album img{
+    width: 100%;
+    padding: 0 10px;
+}
+.play-album .explain{
+    margin: 5px 35px 0 5px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.play-album h6{
+    font-size: 13px;
+    color: white;
+    
+
+}
+
+.play-album p{
+    color: #6d6d6d;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+.play-album .icon-album i{
+    padding-right: 15px;
+    color: #6d6d6d;
+}
+
+.play-controller{
+    display: flex;
+    flex-basis: calc(100% - 480px);
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.top-controller{
+    display: flex;
+    align-items: center;
+
+}
+    
+.top-controller i{
+    margin: 10px 20px;
+    font-size: 18px;
+    color: white;
+
+}
+
+.top-controller i:nth-child(3){
+    font-size: 35px;
+    vertical-align: middle;
+}
+
+.bottom-controller{
+    display: flex;
+}
+.bottom-controller h6{
+    color: #6d6d6d;
+}
+.bottom-controller .space{
+    position: relative;
+    background-color: #6d6d6d;
+    margin: 4px 10px;
+    border-radius: 10px;
+    width: 430px;
+    height: 4px;
+   
+}
+
+.bottom-controller .space-white{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 4px;
+   
+}
 
