@@ -567,3 +567,106 @@ main{
 
 }
 
+@media screen and (max-width:767px){
+
+    /* sidebar */
+    .foot-sidebar {
+        margin-top: 240%;
+
+    }
+
+    /* leadership */
+
+    .content_main .leadership{
+        height: 80px;
+        display: block;
+    }
+
+    .list-oriz {
+        padding: 20px 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+                
+
+    }
+
+    .list-oriz li {
+        display: inline-block;
+        list-style: none;
+        margin-right: 10px;
+        cursor: pointer;
+        flex-basis: calc(100% / 3 - 28px);
+
+        /* capire come inserire spazio tra i li */
+    }
+
+   
+
+
+    /* played */
+
+    .album-list .album {
+        flex-basis: calc(100% / 2 - 15px);
+        
+        
+    }
+
+    /* footer */
+    .footer_play .play-album img {
+        width: 80%;
+        padding: 0 5px;
+    }
+
+    .play-album .explain {
+        margin: 5px 5px 0 0px;
+        width: 70px;
+    }
+
+    .top-controller i {
+        margin: 10px 15px;
+        font-size: 18px;
+        color: white;
+    }
+
+    .top-controller i:nth-child(3) {
+        font-size: 30px;
+    }
+
+    .bottom-controller .space{
+        width: 260px;
+    }
+
+    .bottom-controller .space-white{
+        width: 85px;
+    }
+        
+    .play-audio i{
+        font-size: 12px;
+    }   
+
+
+    .footer_play .play-album, 
+    .footer_play .play-audio {
+        flex-basis: 200px;
+        
+    }
+
+    .mini-space {
+        width: 110px;
+        
+        
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
