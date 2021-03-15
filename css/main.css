@@ -76,8 +76,11 @@ a{
     list-style: none;
     margin-right: 15px;
     cursor: pointer;
+    
 
 }
+
+
 
 
 .album-list .album{
@@ -129,7 +132,7 @@ main{
     background: #000000;
     overflow-x: hidden;
     min-width: 200px;
-    
+    overflow-y: auto;
     
     
     
@@ -407,7 +410,7 @@ main{
 
 .top-controller i:nth-child(3){
     font-size: 35px;
-    vertical-align: middle;
+    
 }
 
 .bottom-controller{
@@ -438,6 +441,7 @@ main{
     height: 4px;
    
 }
+
 
 
 .play-audio{
@@ -473,7 +477,7 @@ main{
 
 /* media query version  */
 
-@media screen and (min-width: 767px) and (max-width: 1199px){
+@media screen and (max-width:1199px){
     /* leadership */
 
     .content_main .leadership{
@@ -499,9 +503,7 @@ main{
         
     }
 
-    .list-oriz li:last-child{
-        margin-top: 35px;
-    }
+   
 
 
     /* played */
@@ -511,5 +513,57 @@ main{
         
         
     }
+
+    /* footer */
+    .footer_play .play-album img {
+        width: 80%;
+        padding: 0 5px;
+    }
+
+    .play-album .explain {
+        margin: 5px 5px 0 0px;
+        width: 70px;
+    }
+
+    .top-controller i {
+        margin: 10px 15px;
+        font-size: 18px;
+        color: white;
+    }
+
+    .top-controller i:nth-child(3) {
+        font-size: 30px;
+    }
+
+    .bottom-controller .space{
+        width: 260px;
+    }
+
+    .bottom-controller .space-white{
+        width: 85px;
+    }
+        
+    .play-audio i{
+        font-size: 12px;
+    }   
+
+
+    .footer_play .play-album, 
+    .footer_play .play-audio {
+        flex-basis: 200px;
+        
+    }
+
+    .mini-space {
+        width: 110px;
+        
+        
+    }
+
+
+       
+
+
+
 }
 
