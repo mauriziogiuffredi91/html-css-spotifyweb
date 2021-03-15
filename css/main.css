@@ -55,6 +55,7 @@ main{
 .sidebar{
     flex-basis: 230px;
     background: #000000;
+    min-height: 30px;
     
 }
 
@@ -127,7 +128,7 @@ main{
 }
 
 .foot-sidebar{
-    margin-top: 100px;
+    margin-top: 140%;
     min-height: 80px;
 }
 
@@ -162,11 +163,6 @@ main{
 .foot-sidebar .box-author h4{
     color: white;
 }
-
-
-
-
-/* aggiungere nello span le caratteristiche di un quadrante con croce dentro di selezione */
 
 
 
