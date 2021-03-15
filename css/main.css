@@ -315,7 +315,9 @@ main{
 
 
 /* popular artist */
-
+.played:last-of-type img{
+    border-radius: 50%;
+}
 
 /* footer play */
 
