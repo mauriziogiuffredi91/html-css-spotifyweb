@@ -125,9 +125,10 @@ main{
 /* sidebar */
 
 .sidebar{
-    flex-basis: 376px;
+    /* flex-basis: 376px; */
     background: #000000;
     overflow-x: hidden;
+    min-width: 200px;
     
     
     
@@ -343,7 +344,7 @@ main{
 
 .footer_play .play-album,
 .footer_play .play-audio{
-    flex-basis: 240px;
+    flex-basis: 230px;
     display: flex;
     align-items: center;
 }
@@ -356,9 +357,9 @@ main{
     padding: 0 10px;
 }
 .play-album .explain{
-    margin: 5px 35px 0 5px;
-    /* display: flex;
-    flex-direction: column; */
+    margin: 5px 20px 0 5px;
+    width: 70px;
+    
 }
 .play-album h6{
     font-size: 13px;
@@ -373,16 +374,19 @@ main{
     font-weight: bold;
 }
 
-
+.play-album .icon-album{
+    display: flex;
+}
 
 .play-album .icon-album i{
     padding-right: 15px;
     color: #6d6d6d;
+    
 }
 
 .play-controller{
     display: flex;
-    flex-basis: calc(100% - 480px);
+    flex-basis: calc(100% - 460px);
     flex-direction: column;
     align-items: center;
     
@@ -435,3 +439,34 @@ main{
    
 }
 
+
+.play-audio{
+    display: flex;
+}
+
+.play-audio i{
+    color: white;
+    padding: 0 5px;
+}
+
+
+.mini-space{
+    position: relative;
+    background-color: #6d6d6d;
+    margin: 4px 10px;
+    border-radius: 10px;
+    width: 120px;
+    height: 4px;
+}
+
+.mini-space-white{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    border-radius: 10px;
+    width: 40px;
+    height: 4px;
+}
