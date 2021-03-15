@@ -58,6 +58,14 @@ body{
     
 }
 
+.list-oriz li{ 
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
 
 /* main */
 
@@ -224,6 +232,16 @@ main{
 
 .content_main .leadership{
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-oriz h4{
+    color: #6d6d6d;
+    text-transform: uppercase;
+    
+
 }
 
 
