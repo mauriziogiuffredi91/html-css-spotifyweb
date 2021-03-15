@@ -23,6 +23,25 @@ body{
 }
 
 /* button */
+.btn{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-right: 10px;
+}
+
+.btn.button-background{
+    border: 1px solid white;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+    
+
 
 /* list */
 
@@ -43,10 +62,9 @@ body{
 /* main */
 
 main{
-    position: relative;
-    background-color: #141922;
     height: calc(100vh - 90px);
     display: flex;
+    
     
 }
 
@@ -73,7 +91,7 @@ main{
 }
 .sidebar .sidebar_menu .help-icon{
     width: 190px;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -167,7 +185,12 @@ main{
 
 
 /* content main */
+.content_main{
+    position: relative;
+    flex-grow: 1;
+    background-color: #141922;
 
+}
 
 
 
@@ -176,21 +199,32 @@ main{
 .header_menu{
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
     height: 90px;
-    width: calc(100vw - 227px);
-    background-color:rgba(3, 4, 7, 0.576);
+    background-color:#080b12;
+     
+    
+
+}
+
+/* scrollable */
+
+.content_main .scrollable{
+    padding: 88px 15px 0;
 }
 
 
 
 
-
-
-
-
-
 /* leadership */
+
+.content_main .leadership{
+    height: 80px;
+}
 
 
 /* recently played */
