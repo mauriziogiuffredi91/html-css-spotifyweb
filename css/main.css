@@ -4,11 +4,18 @@
     padding: 0;
 }
 
-body{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+a{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    font-size: 14px;
+    
 }
 
 
@@ -63,6 +70,38 @@ body{
     list-style: none;
     margin-right: 15px;
     cursor: pointer;
+
+}
+
+
+.album-list .album{
+    display: inline-block;
+    list-style: none;
+    flex-basis: calc(100% / 6 - 15px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    
+}
+
+.album-list .album h4{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.album-list .album h5{
+    text-align: center;
+    color: #6d6d6d;
+    margin-top: 10px;
+
+}
+    
+.album-list .album img{
+    width: 100%;
 }
 
 
@@ -237,7 +276,7 @@ main{
     align-items: center;
 }
 
-.list-oriz h4{
+.list-oriz h5{
     color: #6d6d6d;
     text-transform: uppercase;
     
@@ -246,6 +285,13 @@ main{
 
 
 /* recently played */
+
+.recently_played .album-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
 
 /* personal choiche */
 
