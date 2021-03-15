@@ -287,15 +287,15 @@ main{
 
 
 /* recently played */
-.recently_played{
+.played{
     margin: 20px 0;
 
 }
 
-.recently_played h2{
+.played h2{
     color: white;
 }
-.recently_played .album-list{
+.played .album-list{
     display: flex;
     flex-wrap: wrap;
     
@@ -305,29 +305,17 @@ main{
 
 
 /* personal choiche */
-.personal_choiche{
-    margin: 20px 0;
-
-}
-.personal_choiche h2{
-    color: white;
-}
-
-.personal_choiche p{
+.played p{
     color: #6d6d6d;
     font-size: 12px;
     font-weight: bold;
     margin: 5px 0;
 }
-.personal_choiche .album-list{
-    display: flex;
-    flex-wrap: wrap;
-    
 
-}
 
 
 /* popular artist */
+
 
 /* footer play */
 
