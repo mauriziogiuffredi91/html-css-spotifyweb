@@ -502,5 +502,14 @@ main{
     .list-oriz li:last-child{
         margin-top: 35px;
     }
+
+
+    /* played */
+
+    .album-list .album {
+        flex-basis: calc(100% / 4 - 15px);
+        
+        
+    }
 }
 
