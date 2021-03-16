@@ -572,9 +572,10 @@ main{
    
     /* leadership */
 
-    .content_main .leadership{
+    .content_main .leadership {
         height: 80px;
         display: block;
+        margin-bottom: 40px;
     }
 
     .list-oriz {
@@ -681,7 +682,45 @@ main{
         margin-left: 2px;
     }
 
+    /* player */
+    .list-oriz h5{
+        font-size: 11px;
+
+    }
+
+    .list-oriz li {
+        flex-basis: calc(100% / 4 - 15px);
+        
+        
+    }
+
     /* footer */
+
+    .contain-play-img {
+        width: 60px;
+    }
+
+    .footer_play .play-album img {
+        width: 90%;
+    }
+
+    .play-album .explain {
+        padding-right: 15px;
+        margin: 5px 0px 0 0px;
+    }    
+
+    .play-album .icon-album {
+        width: 25px;
+        
+    }
+    
+    .top-controller i {
+        margin: 10px 8px;
+    }
+
+    .bottom-controller .space {
+        width: 160px;
+    }
 
     
 }
