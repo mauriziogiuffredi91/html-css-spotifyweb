@@ -207,7 +207,7 @@ main{
 }
 
 .foot-sidebar{
-    margin-top: 168%;
+    margin-top: 710px;
     min-height: 80px;
 }
 
@@ -569,12 +569,7 @@ main{
 
 @media screen and (max-width:767px){
 
-    /* sidebar */
-    .foot-sidebar {
-        margin-top: 240%;
-
-    }
-
+   
     /* leadership */
 
     .content_main .leadership{
@@ -649,6 +644,37 @@ main{
 
 
 @media screen and (max-width:600px){
+
+    /* sidebar */
+    .sidebar {
+        min-width: 70px;
+        
+        
+    }
+
+    .sidebar .logo_spotify img{
+        display: none;
+    }
+
+    .sidebar .logo_spotify {
+        background-image: url('../img/logo-small.svg');
+        padding: 20px 0px;
+        background-repeat: no-repeat;
+        background-position: 12px 5px;
+        width: 70px;
+        min-height: 60px;
+        background-size: 45px;
+        
+    }
+
+    .help-icon h6,
+    .sidebar .sidebar_menu .playlist h4,
+    .sidebar .sidebar_menu ul,
+    hr,
+    .foot-sidebar .box-author h4{
+        display: none;
+    }
+
 
 }
 
