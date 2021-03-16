@@ -723,14 +723,25 @@ main{
 
     .loghi_mobile {
         margin-bottom: 10px;
-        flex-grow: 1;
+        
     }
     
-    .personal-profile{
+    
+
+    .mobile img {
+        margin: 10px;
+    }
+
+    .download img{
+        margin-right: 25px;
+    }
+
+    .mobile .personal-profile img{
         width: 40px;
         height: 40px;
         border-radius: 50%;
         background: #808080;
+        margin: 10px 10px;
     }
     
 
