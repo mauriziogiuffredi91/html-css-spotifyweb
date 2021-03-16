@@ -161,7 +161,7 @@ main{
     width: 100%;
     color: #6d6d6d;
     height: calc(100% - 100px);
-    
+    overflow-y: hidden;
     
 }
 .sidebar .sidebar_menu .help-icon{
@@ -224,6 +224,8 @@ main{
 
 .foot-sidebar{
     height: 100px;
+    width: 175px;
+margin-left: 10px;
 }
 
 .foot-sidebar a{
