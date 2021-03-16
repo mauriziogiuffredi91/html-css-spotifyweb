@@ -119,7 +119,8 @@ a{
     width: 100%;
 } */
 
-.album-list .album .album-img{
+.album-list .album .album-img,
+.album-list .album-img-circle{
     position: relative;
 }
 
@@ -791,8 +792,8 @@ main{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(193, 206, 204, 0.32);
-    height: 100%;
+    background-color: rgba(193, 206, 204, 0.50);
+    height: 99%;
     width: 100%;
     transition: opacity 2s;
     opacity: 0;
@@ -800,7 +801,8 @@ main{
 
 }
 
-.layover-effect .lay{
+.layover-effect .lay,
+.layover-effect-circle .lay{
     font-size: 70px;
     color: white;
     margin: 0;
@@ -810,6 +812,21 @@ main{
     transform: translate(-50%, -50%);
 }
 
-.layover-effect:hover {
+.layover-effect:hover,
+.layover-effect-circle:hover {
     opacity: 1;
+}
+
+
+
+.layover-effect-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(193, 206, 204, 0.50);
+    height: 99%;
+    width: 100%;
+    transition: opacity 2s;
+    opacity: 0;
+    border-radius: 50%;
 }
