@@ -24,7 +24,7 @@ a{
 
 /* generali */
 
-.sidebar,
+
 .content_main{
     overflow-y: hidden;
 }
@@ -52,6 +52,8 @@ a{
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
+    transition: transform .2s; 
+    
 }
     
 
@@ -207,8 +209,8 @@ main{
 }
 
 .foot-sidebar{
-    margin-top: 710px;
-    min-height: 80px;
+    margin-top: 200px;
+    
 }
 
 .foot-sidebar a{
@@ -677,6 +679,12 @@ main{
         display: none;
     }
 
+    .foot-sidebar{
+        margin-top: 500px;
+        
+    }
+    
+
     .foot-sidebar a img {
         width: 10%;
         margin-left: 2px;
@@ -727,6 +735,23 @@ main{
 
 
 
+/* effetti hover */
+/* sidebar */
+.help-icon h6:hover,
+.playlist h4:hover,
+.add-playlist h5:hover,
+.special-li a:hover,
+.foot-sidebar p:hover{
+    color: white;
+}
+
+
+ /* header menu */
+
+.btn.button-background:hover{
+    transform: scale(1.2);
+
+}
 
 
 
