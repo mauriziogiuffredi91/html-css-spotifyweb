@@ -670,12 +670,20 @@ main{
     .help-icon h6,
     .sidebar .sidebar_menu .playlist h4,
     .sidebar .sidebar_menu ul,
+    .foot-sidebar p,
     hr,
     .foot-sidebar .box-author h4{
         display: none;
     }
 
+    .foot-sidebar a img {
+        width: 10%;
+        margin-left: 2px;
+    }
 
+    /* footer */
+
+    
 }
 
 
